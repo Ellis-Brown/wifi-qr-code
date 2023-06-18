@@ -92,7 +92,7 @@ export default function MainPage() {
         </div>
       </div>
       <a
-        href={'https://github.com/Ellis-Brown/contact-qr-code'}
+        href={'https://github.com/Ellis-Brown/wifi-qr-code'}
         className="text-gray-200 rounded-lg bg-gradient-to-r from-black to-gray-500 hover:bg-gray-600 px-4 py-2 my-4"
       >
         <div className="flex flex-row">
