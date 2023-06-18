@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Share wifi with QR code',
-  description: 'Quickly and easily share your wifi credientials with a QR code'.
+  description: 'Quickly and easily share your wifi credientials with a QR code',
 }
 
 export default function RootLayout({
