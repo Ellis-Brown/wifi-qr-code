@@ -35,7 +35,7 @@ export default function MainPage() {
     <div className="bg-gradient-to-r from-green-500 to-blue-500 min-h-screen flex items-center justify-center flex-col">
       <div className="bg-gray-800 p-8 rounded-lg shadow-lg text-white">
         <h1 className="text-3xl mb-6 font-bold text-center bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">
-          Share your Wi-Fi credentials with a QR code
+          Share your Wi-Fi login with a QR code
         </h1>
         <form className="mb-4">
           <div className="mb-2">
@@ -72,7 +72,7 @@ export default function MainPage() {
               onChange={(e) => setEncryption(e.target.value)}
               className="w-full bg-gray-700 text-white px-3 py-2 rounded focus:outline-none"
             >
-              <option value="WPA/WPA2">WPA/WPA2</option>
+              <option value="WPA/WPA2">WPA/WPA2 (Most typical)</option>
               <option value="WEP">WEP</option>
               <option value="None">None</option>
             </select>
